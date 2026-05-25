@@ -1,6 +1,16 @@
-# Полностью готовый шаблон проекта для начала разработки AR игр на Unity
+# Полностью готовый шаблон AR проекта для начала разработки AR игр на Unity
 
-Инструкция по добавлению AR и базовой настройке игрока:
+## ℹ️ Как использовать этот шаблон
+
+**Вариант 1: Через шаблон на GitHub**
+1. Создать репозиторий с выбором этого шаблона. 
+2. В Unity проекте в Build Settings сменить платформу на Android. 
+
+**Вариант 2: Клонированием**
+1. Клонировать репозиторий и создать свой проект на основе его файлов. 
+2. В Unity проекте в Build Settings сменить платформу на Android. 
+
+## 🛠 Инструкция по добавлению AR и настройке игрока в Unity проекте
 1. Создать проект, выбрать Universal 3D (URP) 
 2. Импортировать AR Foundation 
 3. Импортировать Google ARCore XR Plugin 
@@ -27,3 +37,11 @@
   13.1. -> AR Plane Manager -> Plane Prefab -> AR Feathered Plane (если не выбирается, то этот префаб можно найти по пути Assets -> Samples -> XR Interaction Toolkit -> [номер версии] -> AR Starter Assets -> Prefabs -> AR Feathered Plane)</br> 
   13.2. -> Detection Mode -> Horizontal (теперь трекаться будут только горизонтальные объекты)</br> 
   13.3. -> Add component -> AR Anchor Manager 
+
+## ✉️ Связь со мной
+- [Telegram Канал](https://t.me/enfity_games) 
+- [Донаты](https://dalink.to/enfity) 
+- [YouTube](https://www.youtube.com/@enfity) 
+- [Itch.io](https://enfity.itch.io/) 
+- enfity.games@gmail.com 
+- [GitHub](https://github.com/EnfityBro) 
