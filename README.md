@@ -23,7 +23,7 @@
 12. В иерархии -> ПКМ -> XR</br> 
   12.1. -> AR Session</br> 
   12.2. -> XR Origin (Mobile AR) 
-13. В иерархии выбрать XR Origin (Mobile AR) -> AR Plane Manager</br> 
-  13.1. -> Plane Prefab -> AR Feathered Plane (если не выбирается, то этот префаб можно найти по пути Assets -> Samples -> XR Interaction Toolkit -> [номер версии] -> AR Starter Assets -> Prefabs -> AR Feathered Plane)</br> 
-  13.2. -> Detection Mode -> Horizontal (теперь трекаться будут только горизонтальные объекты) 
-15. В иерархии выбрать XR Origin (Mobile AR) -> add component -> AR Anchor Manager 
+13. В иерархии выбрать XR Origin (Mobile AR)</br> 
+  13.1. -> AR Plane Manager -> Plane Prefab -> AR Feathered Plane (если не выбирается, то этот префаб можно найти по пути Assets -> Samples -> XR Interaction Toolkit -> [номер версии] -> AR Starter Assets -> Prefabs -> AR Feathered Plane)</br> 
+  13.2. -> Detection Mode -> Horizontal (теперь трекаться будут только горизонтальные объекты)</br> 
+  13.3. -> Add component -> AR Anchor Manager 
