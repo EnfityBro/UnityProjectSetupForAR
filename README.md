@@ -1,46 +1,46 @@
-# Полностью готовый шаблон AR проекта для начала разработки AR игр на Unity
+# A fully prepared AR project template for starting AR game development on Unity
 
-## ℹ️ Как использовать этот шаблон
+## How to use this template
 
-**Вариант 1: Через шаблон на GitHub**
-1. Создать репозиторий с выбором этого шаблона. 
-2. В Unity проекте в Build Settings сменить платформу на Android. 
+**Option 1: Through a template on GitHub**
+1. Create a repository with the selection of this template. 
+2. In the Unity project, in the Build Settings, switch the platform to Android. 
 
-**Вариант 2: Клонированием**
-1. Клонировать репозиторий и создать свой проект на основе его файлов. 
-2. В Unity проекте в Build Settings сменить платформу на Android. 
+**Option 2: Cloning**
+1. Clone the repository and create your own project based on its files. 
+2. In the Unity project, in the Build Settings, switch the platform to Android. 
 
-## 🛠 Инструкция по добавлению AR и настройке игрока в Unity проекте
-1. Создать проект, выбрать Universal 3D (URP) 
-2. Импортировать AR Foundation 
-3. Импортировать Google ARCore XR Plugin 
-4. Импортировать OpenXR Plugin 
-5. Импортировать XR Interaction Toolkit</br> 
-  5.1. В окне Samples импортировать Starter Assets</br> 
-  5.2. В окне Samples импортировать AR Starter Assets 
+## Instructions for adding AR and configuring a player in a Unity project
+1. Create Unity project, select Universal 3D (URP) 
+2. Import AR Foundation 
+3. Import Google ARCore XR Plugin 
+4. Import OpenXR Plugin 
+5. Import XR Interaction Toolkit</br> 
+  5.1. In Samples window import Starter Assets</br> 
+  5.2. In Samples window import AR Starter Assets 
 6. File -> Build Profiles (Build Settings) -> Android -> Switch Platform 
 7. Edit -> Project Settings -> XR Plug-in Management</br> 
-  7.1. -> вкладка андроид -> Google ARCore</br> 
-  7.2. -> вкладка ПК -> XR Simulation</br> 
-  7.3. -> Project Validation -> проверить нет ли ошибок / предупреждений, если есть, нажать fix all 
-8. Edit -> Project Settings -> Player -> вкладка андроид -> Other Settings</br> 
-  8.1. -> Graphics APIs -> удалить Vulkan</br> 
+  7.1. -> the Android tab -> Google ARCore</br> 
+  7.2. -> the PC tab -> XR Simulation</br> 
+  7.3. -> Project Validation -> check if there are any errors/warnings, if there are, click fix all 
+8. Edit -> Project Settings -> Player -> the Android tab -> Other Settings</br> 
+  8.1. -> Graphics APIs -> remove Vulkan</br> 
   8.2. -> Minimum API Level -> Android 7.0 'Nougat' (API level 24)</br> 
-  8.3. -> Active Input Handing -> Input System Package (New) - рекомендуется, но можно оставить и Both 
-9. Edit -> Project Settings -> Graphics -> Default Render Pipeline -> Mobile (по умолчанию называется Mobile_RPAsset) 
+  8.3. -> Active Input Handing -> Input System Package (New) - It is recommended, but you can leave Both 
+9. Edit -> Project Settings -> Graphics -> Default Render Pipeline -> Mobile (it's called Mobile_RPAsset by default) 
 10. Edit -> Project Settings -> Quality -> Levels -> Mobile 
-11. Папка Assets -> Settings -> Mobile_Renderer -> Add Renderer Feature -> AR Background Renderer Feature 
-12. В иерархии -> ПКМ -> XR</br> 
+11. In the Assets -> Settings folder select Mobile_Renderer -> Add Renderer Feature -> AR Background Renderer Feature 
+12. In the hierarchy -> RMB -> XR</br> 
   12.1. -> AR Session</br> 
   12.2. -> XR Origin (Mobile AR) 
-13. В иерархии выбрать XR Origin (Mobile AR)</br> 
-  13.1. -> AR Plane Manager -> Plane Prefab -> AR Feathered Plane (если не выбирается, то этот префаб можно найти по пути Assets -> Samples -> XR Interaction Toolkit -> [номер версии] -> AR Starter Assets -> Prefabs -> AR Feathered Plane)</br> 
-  13.2. -> Detection Mode -> Horizontal (теперь трекаться будут только горизонтальные объекты)</br> 
+13. In the hierarchy, select XR Origin (Mobile AR)</br> 
+  13.1. -> AR Plane Manager -> Plane Prefab -> AR Feathered Plane (if not selected, then this prefab can be found along the way: Assets -> Samples -> XR Interaction Toolkit -> your_version -> AR Starter Assets -> Prefabs -> AR Feathered Plane)</br> 
+  13.2. -> Detection Mode -> Horizontal (now only horizontal objects will be tracked)</br> 
   13.3. -> Add component -> AR Anchor Manager 
 
-## ✉️ Связь со мной
-- [Telegram Канал](https://t.me/enfity_games) 
-- [Донаты](https://dalink.to/enfity) 
+## Contact me
+- [Telegram Channel](https://t.me/enfity_games) 
+- [Donation](https://dalink.to/enfity) 
 - [YouTube](https://www.youtube.com/@enfity) 
 - [Itch.io](https://enfity.itch.io/) 
 - enfity.games@gmail.com 
