@@ -10,7 +10,7 @@
 1. Clone the repository and create your own project based on its files. 
 2. In the Unity project, in the Build Settings, switch the platform to Android. 
 
-## Instructions for adding AR and configuring a player in a Unity project
+## Instructions for self-adding AR and configuring a player in a Unity project
 1. Create Unity project, select Universal 3D (URP) 
 2. Import AR Foundation 
 3. Import Google ARCore XR Plugin 
