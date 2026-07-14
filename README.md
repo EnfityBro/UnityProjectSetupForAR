@@ -39,7 +39,7 @@
   13.3. -> Add component -> AR Anchor Manager 
 
 ## Contact me
-- [Telegram Channel](https://t.me/enfity_games) 
+- [Telegram Channel](https://telegram.me/enfity_games) 
 - [Donation](https://dalink.to/enfity) 
 - [YouTube](https://www.youtube.com/@enfity) 
 - [Itch.io](https://enfity.itch.io/) 
